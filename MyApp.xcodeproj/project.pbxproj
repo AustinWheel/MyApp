@@ -11,6 +11,8 @@
 		DF8A30712AEB8BB0001A0B6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A30702AEB8BB0001A0B6F /* ContentView.swift */; };
 		DF8A30732AEB8BB2001A0B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8A30722AEB8BB2001A0B6F /* Assets.xcassets */; };
 		DF8A30762AEB8BB2001A0B6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8A30752AEB8BB2001A0B6F /* Preview Assets.xcassets */; };
+		DF8A307F2AEB9A35001A0B6F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A307E2AEB9A35001A0B6F /* CircleImage.swift */; };
+		DF8A30832AEB9DC5001A0B6F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A30822AEB9DC5001A0B6F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DF8A30702AEB8BB0001A0B6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF8A30722AEB8BB2001A0B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8A30752AEB8BB2001A0B6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF8A307E2AEB9A35001A0B6F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		DF8A30822AEB9DC5001A0B6F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				DF8A306E2AEB8BB0001A0B6F /* MyAppApp.swift */,
 				DF8A30702AEB8BB0001A0B6F /* ContentView.swift */,
+				DF8A307E2AEB9A35001A0B6F /* CircleImage.swift */,
 				DF8A30722AEB8BB2001A0B6F /* Assets.xcassets */,
 				DF8A30742AEB8BB2001A0B6F /* Preview Content */,
+				DF8A30822AEB9DC5001A0B6F /* MapView.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				DF8A30712AEB8BB0001A0B6F /* ContentView.swift in Sources */,
 				DF8A306F2AEB8BB0001A0B6F /* MyAppApp.swift in Sources */,
+				DF8A30832AEB9DC5001A0B6F /* MapView.swift in Sources */,
+				DF8A307F2AEB9A35001A0B6F /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

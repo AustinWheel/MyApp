@@ -17,6 +17,10 @@ struct LandmarkRow: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+            if landmark.isFavorite {
+                Image(systemName: "start.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
@@ -26,8 +30,4 @@ struct LandmarkRow: View {
         LandmarkRow(landmark: landmarks[0])
         LandmarkRow(landmark: landmarks[1])
     }
-}
-
-#Preview {
-    LandmarkRow(landmark: landmarks[1])
 }
